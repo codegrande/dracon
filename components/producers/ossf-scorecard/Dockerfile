@@ -1,6 +1,6 @@
 FROM gcr.io/openssf/scorecard:stable
 
-FROM alpine:latest
+FROM alpine:3.18.3
 
 COPY --from=0 /scorecard /scorecard
 
