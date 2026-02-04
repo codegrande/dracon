@@ -1,5 +1,5 @@
 # TODO: replace w/ digest and auto create PRs to update.
-FROM node:lts
+FROM node:24.13.0-bookworm
 
 WORKDIR /home/node/workspace
 COPY components/producers/typescript-eslint/eslint-wrapper/eslintrc.js /home/node/workspace
